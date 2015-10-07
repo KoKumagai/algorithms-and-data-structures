@@ -2,10 +2,8 @@
 public class FactorialWithRecursion {
 
     public static int factorial(int num) {
-        int result = 1;
-        
-        if(num == 0) {
-            return result;
+        if(num == 1) {
+            return 1;
         } else {
             return num * factorial(num - 1);
         }
